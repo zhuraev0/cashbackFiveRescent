@@ -1,12 +1,6 @@
 package main
 
-import "fmt"
 func main() {
-	{
-		sales := []int{12_000, 8_000, 15_000,8_000}
-		result :=sale(sales)
-		fmt.Println(50==result)
-	}
 }
 func sale(sales[]int) int{
 	sum := 0
@@ -18,8 +12,6 @@ func sale(sales[]int) int{
 			sum += value
 		}
 	}
-	//nps := (promoters - detractors) * 100 / len(sales)
-	fmt.Println(sum)
 	return 0
 }
 
